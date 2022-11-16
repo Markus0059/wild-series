@@ -1,3 +1,14 @@
+$blue-color: #281D6D;
+$red-color: #C61E1E;
+$white-color: white;
+$grey-color: #C7C7C7;
+$grey-less-color: rgb(234, 234, 234);
+
+@import "~bootstrap/scss/bootstrap";
+@import "nav.scss";
+
+
+
 body {
-    background-color: rgb(221, 255, 0);
+    background-color: $grey-less-color;
 }
