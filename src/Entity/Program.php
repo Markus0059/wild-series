@@ -37,7 +37,7 @@ class Program
         return $this->title;
     }
 
-    public function setName(string $title): self
+    public function setTitle(string $title): self
     {
         $this->title = $title;
 
