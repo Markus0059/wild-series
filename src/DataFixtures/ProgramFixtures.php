@@ -49,10 +49,16 @@ class ProgramFixtures extends Fixture implements DependentFixtureInterface
     ],
     [
         'title' => 'Arcane ',
-        'synopsis' => "Championnes de leurs villes jumelles et rivales, deux sœurs se battent dans une guerre où font rage des technologies magiques et des perspectives diamétralement opposées.",
+        'synopsis' => "L'histoire du héros tchèque Zizka, aussi appelé Jan Zizka de Trocnov, sa relation avec une héritière locale et son combat contre un roi rival. Tacticien militaire vénéré qui a vaincu les armées de l'ordre teutonique et du Saint-Empire romain germanique, il est connu pour ses stratégies novatrices et pour avoir su entraîner rapidement des paysans à affronter des adversaires qualifiés et généralement plus nombreux.",
         'poster' => "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9osrWsk67k0ys9zeYwiMhG8mlr6.jpg",
         'category' => "category_Aventure"
-    ]
+    ],
+    [
+      'title' => 'Medieval ',
+      'synopsis' => "Championnes de leurs villes jumelles et rivales, deux sœurs se battent dans une guerre où font rage des technologies magiques et des perspectives diamétralement opposées.",
+      'poster' => "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4njdAkiBdC5LnFApeXSkFQ78GdT.jpg",
+      'category' => "category_Action"
+  ]
   ];
   public function load(ObjectManager $manager): void
   {

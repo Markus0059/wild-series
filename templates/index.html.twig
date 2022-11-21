@@ -1,7 +1,18 @@
 {% extends "base.html.twig" %}
- {% block title %}Wild Series{% endblock %}
+{% block title %}Wild Series
+{% endblock %}
 
- {% block body %}
- <h1>Bienvenue</h1>
- <img src="{{ asset('build/images/food.jpg') }}" alt="image of food"/>
- {% endblock %}
+{% block body %}
+	<h1>Bienvenue</h1>
+	<img src="{{ asset('build/images/food.jpg') }}" alt="image of food"/>
+
+
+	<div class="liens">
+		<a href="{{ path('program_index') }}">
+			Acces à toutes les séries
+		</a>
+		<a href="{{ path('category_index') }}">
+			Acces à toutes les catégories
+		</a>
+	</div>
+{% endblock %}
